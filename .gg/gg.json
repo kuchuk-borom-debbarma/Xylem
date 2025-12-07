@@ -3,6 +3,10 @@
     "client-java": {
       "Name": "client-java",
       "Path": "client/java-sdk"
+    },
+    "server-spring": {
+      "Name": "server-spring",
+      "Path": "server/xylem_server"
     }
   },
   "repo_aware_context_message": true
