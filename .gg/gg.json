@@ -1,4 +1,9 @@
 {
-  "repositories": {},
+  "repositories": {
+    "client-java": {
+      "Name": "client-java",
+      "Path": "client/java-sdk"
+    }
+  },
   "repo_aware_context_message": true
 }
