@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: xylem-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: xylem
+    ports:
+      - "5432:5432"
+    volumes:
+      - xylem_postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  xylem_postgres_data:

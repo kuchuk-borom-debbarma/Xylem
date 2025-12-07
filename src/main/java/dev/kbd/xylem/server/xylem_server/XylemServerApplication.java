@@ -9,5 +9,4 @@ public class XylemServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(XylemServerApplication.class, args);
 	}
-
 }
